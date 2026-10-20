@@ -1,0 +1,20 @@
+[project]
+name = "docker-workshop-for-de"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "sohib al mashaqba", email = "dbdobgeeshane@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=3.0.6",
+    "pyarrow>=26.0.0",
+]
+
+[project.scripts]
+docker-workshop-for-de = "docker_workshop_for_de:main"
+
+[build-system]
+requires = ["uv_build>=0.13.4,<0.14.0"]
+build-backend = "uv_build"
